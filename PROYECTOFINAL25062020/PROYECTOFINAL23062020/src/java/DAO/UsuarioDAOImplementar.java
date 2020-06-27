@@ -111,14 +111,13 @@ public class UsuarioDAOImplementar implements UsuarioDAO{
                 StringBuilder miSQL = new StringBuilder();
                 //Agregar consulta SQL; el id_categoria es autoincrementable.
                 miSQL.append("INSERT INTO tb_usuario(nombre, apellido, correo, clave, tipo, estado, pregunta, respuesta, fecha_registro) VALUES ('");
-                miSQL.append(usuario.getNombre()+"',").append(usuario.getApellido()+ "',  " ).append(usuario.getApellido()+ "',  " )
-                .append(usuario.getCorreo()+ "',  " ).append(usuario.getClave() + "',  " ).append(usuario.getTipo()+ "," )
-                .append(usuario.getEstado()+ ", " ).append(usuario.getPregunta()+ "',  " ).append(usuario.getRespuesta()+ "', " )
-                .append(usuario.getFecha_registro()+ " ' " );
+                miSQL.append(usuario.getNombre()+"','").append(usuario.getApellido()+ "','" ).append(usuario.getCorreo()+ "','" ).append(usuario.getClave() + "','" ).append(usuario.getTipo()+ "','" )
+                .append(usuario.getEstado()+ "', '" ).append(usuario.getPregunta()+ "','" ).append(usuario.getRespuesta()+ "','" )
+                .append(usuario.getFecha_registro()+" ' ");
                 miSQL.append(");");
                 //Invocar método para ejecutar la consulta.
                 this.conn.ejecutarSQL(miSQL.toString());
-                System.out.println("Registro Guardado...");
+                
             }//else if(usuario.getId()>0){   
                // Comprobación para actualizar...
               //  System.out.println("Entramos...");
