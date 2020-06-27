@@ -1,0 +1,10 @@
+/* 
+    Created on : 23/06/2020, 12:09:37 AM
+    Author     : PC
+*/
+.container{
+    background-color: silver;
+    border-radius: 15px;
+    padding: 25px;
+    margin-top: 50px;
+}

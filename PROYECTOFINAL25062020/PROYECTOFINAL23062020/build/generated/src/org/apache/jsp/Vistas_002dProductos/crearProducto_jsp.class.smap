@@ -1,0 +1,19 @@
+SMAP
+crearProducto_jsp.java
+JSP
+*S JSP
+*F
++ 0 crearProducto.jsp
+Vistas-Productos/crearProducto.jsp
++ 1 encabezado.jspf
+Vistas-Productos/../WEB-INF/Vistas-Parciales/encabezado.jspf
+*L
+5,5:49
+9:53,9
+11,11:63
+21,9:74
+1#1,38:83
+29#0:120
+30,2:121,3
+32,8:127
+*E

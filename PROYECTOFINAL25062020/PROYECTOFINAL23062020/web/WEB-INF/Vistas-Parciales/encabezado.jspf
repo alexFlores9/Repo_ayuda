@@ -1,0 +1,38 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+
+  <link href="bootstrap/css/propio.css" rel="stylesheet" type="text/css"/>
+<div>
+   
+      <div class="encabezado " id="menu">
+       
+        <!-- Los href aca apuntan a los servlets creados dentro del controlador -->
+        
+        <!--<a href="categorias" class="btn btn-primary btn-sm" role="button">Categorias</a>-->
+   
+        
+           
+           
+          
+<ul >
+    <li><h4> SISTEMA DE CONTROL DE INVENTARIO</h4></li>
+    <li><a href="index1.jsp"  role="button">Inicio</a> </li>
+    <li>     <a href="categorias?opcion=listar"  role="button">Categorias</a> </li>
+  <li><a href="#">Usuario</a>
+    <ul>
+      <li><a href="index.jsp?cerrar=true">Cerrar sesion</a></li>
+      <li><a href="#">  Usuario: sesion.getAttribute("nombre")  </a></li>
+      
+      
+    
+    </ul>
+  </li>
+
+</ul>
+
+  
+       
+    </div>
+    <div class="contenido">
+   <!--Este div no se cierra aquí, se cierra en el pie.jspf -->

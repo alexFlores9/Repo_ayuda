@@ -1,0 +1,40 @@
+SMAP
+crearCategoria_jsp.java
+JSP
+*S JSP
+*F
++ 0 crearCategoria.jsp
+Vistas-Categorias/crearCategoria.jsp
++ 1 css-js.jspf
+Vistas-Categorias/../WEB-INF/Vistas-Parciales/css-js.jspf
++ 2 encabezado.jspf
+Vistas-Categorias/../WEB-INF/Vistas-Parciales/encabezado.jspf
++ 3 pie.jspf
+Vistas-Categorias/../WEB-INF/Vistas-Parciales/pie.jspf
+*L
+1,4:51
+4:54,9
+5:63
+7,16:65
+22,7:81
+1#1,23:88
+28#0,11:110
+1#2,38:121
+38#0,3:158
+41,2:161,3
+43,4:167
+47:171,3
+48,6:174
+54:180,3
+55,6:183
+61,2:190
+62,3:192
+65,2:196
+66,3:198
+69,2:202
+70:204
+71:205,3
+72,6:208
+1#3,11:214
+77#0,4:224
+*E
