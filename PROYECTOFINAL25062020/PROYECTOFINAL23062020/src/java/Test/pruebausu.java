@@ -35,7 +35,7 @@ public class pruebausu {
             System.out.println("ID: "+ usuarioListar.getId() +
                     "   NOMBRE: " + usuarioListar.getNombre() +
                     "   Apellido: " + usuarioListar.getApellido()+
-            "   Correo: "+ usuarioListar.getCorreo()+
+                    "   Correo: "+ usuarioListar.getCorreo()+
                     "   Clave: "+ usuarioListar.getClave()+
                     "   Tipo: "+ usuarioListar.getTipo()+
                     "   Estado: "+ usuarioListar.getEstado()+
@@ -72,19 +72,18 @@ public class pruebausu {
      public void guardarUsuario(){
         UsuarioDAO usuario = new UsuarioDAOImplementar();
         Usuario guardar_usu = new Usuario();
-      guardar_usu.setId(2);
+      //guardar_usu.setId(0);
         guardar_usu.setNombre("Usuario prueba");               //Modificar la categoria registrada anteriormente.
         guardar_usu.setApellido("Mandela"); 
          guardar_usu.setCorreo("Prueba23@gmail.com"); 
           guardar_usu.setClave("4321"); 
-           guardar_usu.setTipo(1); 
+           guardar_usu.setTipo(2); 
             guardar_usu.setEstado(1); 
              guardar_usu.setPregunta("hola que hace?"); 
               guardar_usu.setRespuesta("nada"); 
                guardar_usu.setFecha_registro("ahora"); 
        
         usuario.guardarUsu(guardar_usu);
-        
     }
     
     
