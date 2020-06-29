@@ -24,7 +24,7 @@ public class PruebaPro {
                                 " NOMBRE: "+productoListar.getNom_producto()+
                                 " STOCK: "+productoListar.getStock()+
                                 " PRECIO: "+productoListar.getPrecio()+
-                                " ESTADO DEL PRODUCTO:"+productoListar.getEstado_producto()+
+                                " ESTADO DEL PRODUCTO:"+productoListar.getEstado_producto()+"\n"+
                                 " CATEGORIA: "+productoListar.getCategoria()+
                                 " DESCRIPCION DEL PRODUCTO: "+productoListar.getDes_producto()+
                                 " FECHA DE ENTRADA: "+productoListar.getFecha_entrada()
@@ -32,5 +32,6 @@ public class PruebaPro {
              ); 
              
          }
+         System.out.println(":/");
     }
 }
